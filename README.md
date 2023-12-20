@@ -1,13 +1,27 @@
-## Running React on Repl.it
+Task Management Application
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+This is a simple Task Management Application built with React and TypeScript.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+Features
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+- Add tasks with a title and description.
+- Mark tasks as completed.
+- View all tasks in a list.
 
-### Getting Started
-- Hit run
-- Edit [App.tsx](#src/App.tsx) and watch it live update!
+Installation
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+To run this project, install it locally using npm:
+
+```
+$ cd /project
+$ npm install
+$ npm start
+```
+
+Usage
+
+After running the app, you should be able to add tasks using the provided form and toggle their completion status by clicking the checkbox next to each task.
+
+
+
+
